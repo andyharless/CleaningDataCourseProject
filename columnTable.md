@@ -1,3 +1,4 @@
+# Table of Columns Extracted and Variable Names
 
 Original   | Original			 | New Variable Name
 Column     | Description         |
