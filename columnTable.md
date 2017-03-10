@@ -1,8 +1,6 @@
 # Table of Columns Extracted and Variable Names
 
------------|---------------------|--------------------------------------------|
-Original   | Original			 | New Variable Name
-Column     | Description         |
+Original Column | Original Description			 | New Variable Name
 -----------|---------------------|--------------------------------------------|
 1   |tBodyAcc-mean()-X           |BodyAccelerationMeanX
 -----------|----------------------------|-------------------------------------|
