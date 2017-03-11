@@ -61,7 +61,8 @@ on disk in a CSV file called [ucihar.csv](ucihar.csv)
 with the average of each variable for each activity for each subject.
 
 7. Stores the second data set in memory in a data table called "tidymeans" and
-on disk in a CSV file called [uciharMeans.csv](uciharMeans.csv).
+on disk in a CSV file called [uciharMeans.csv](uciharMeans.csv).  Also stores it
+on disk in a TXT R table file called [uciharMeans.txt](uciharMeans.txt).
 
 
 The script uses a file called [variable_names.txt](variable_names.txt)
