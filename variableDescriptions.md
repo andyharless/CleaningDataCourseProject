@@ -1,7 +1,7 @@
 # Table of Columns Extracted and Variable Names
 
 Variable Name | Meaning
-
+--------------|--------------
 BodyAccelerationMeanX | Mean of Time-Domain Body Acceleration Signal X direction
 BodyAccelerationMeanY | Mean of Time-Domain Body Acceleration Signal Y direction
 BodyAccelerationMeanZ | Mean of Time-Domain Body Acceleration Signal Z direction
