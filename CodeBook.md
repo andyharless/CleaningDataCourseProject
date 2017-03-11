@@ -1,8 +1,9 @@
 # Code Book
 
 This code book extends the original descriptions contained in the UCI HAR dataset 
-documentation files "README.txt" (copied to my repository as "UCI_README.txt"),
-"features.txt", and "features_info.txt"
+documentation files README.txt (copied to this repository as 
+[UCI_README.txt](UCI_README.txt)), [features.txt](features.txt), and 
+[features_info.txt](features_info.txt)
 
 
 The table below shows which variables I extracted and what I named them:
