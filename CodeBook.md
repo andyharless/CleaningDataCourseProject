@@ -1,5 +1,5 @@
 # Code Book
-## Describing data in ucihar.csv and uciharMeans.csv
+## Describing data in ucihar.csv, uciharMeans.csv, and uciharMeans.txt,
 ## as produced by the script run_analysis.R
 
 These files contain heavily preprocessed data from accelerometer and gyroscope readings
