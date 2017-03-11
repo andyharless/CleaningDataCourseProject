@@ -11,6 +11,10 @@ FILES:
 
 - [uciharMeans.csv](uciharMeans.csv):  Means of output data by subject and activity.
 
+- [uciharMeans.txt](uciharMeans.txt):  Means of output data by subject and activity.
+  (This file was created to complete the assignment after I read the submission page.
+  The assignment page doesn't specify the format, and generally I prefer CSV.)
+
 - [run_analysis.R](run_analysis.R):  R script to perform the cleaning procedure.
    (Note: requires [variable_names.txt](variable_names.txt) and assumes original
    Dataset.zip has been unzipped into the current working directory, so that

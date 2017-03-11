@@ -20,7 +20,9 @@ contain only means and standard deviations.  In addition, each record in this fi
 includes the label of the activity and the subject ID number.  Also, the training data
 and testing data, separate in the original files, have been concatenated together.
 
-The file [uciharMeans.csv](uciharMeans.csv) contains the mean, for each Activity-Subject
+The file [uciharMeans.csv](uciharMeans.csv)
+(duplicated in R table text format in [uciharMeans.txt](uciharMeans.txt)) 
+contains the mean, for each Activity-Subject
 pair, of the data in [ucihar.csv](ucihar.csv).  (Thus the data in 
 [uciharMeans.csv](uciharMeans.csv) represent "means of means" and
 "means of standard deviations", with the statistics first computed by observation

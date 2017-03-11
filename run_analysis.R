@@ -44,5 +44,6 @@ tidymeans = aggregate(tidydata[,3:len],by=list(tidydata$Activity,tidydata$Subjec
 names(tidymeans)[[1]] <- "Activity"
 names(tidymeans)[[2]] <- "Subject"
 
-# Write averages to a file
+# Write averages to files
 fwrite(tidymeans, "uciharMeans.csv")
+write.table(tidymeans, "uciharMeans.txt", row.names=FALSE)
