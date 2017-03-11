@@ -1,19 +1,48 @@
 # Code Book
+## Describing data in ucihar.csv and uciharMeans.csv
+## as produced by the script run_analysis.R
+
+These files contain heavily preprocessed data from accelerometer and gyroscope readings
+from smartphones of subjects performing six activities
+(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 
 This code book extends the original descriptions contained in the UCI HAR dataset 
 documentation files README.txt (copied to this repository as 
 [UCI_README.txt](UCI_README.txt)), [features.txt](features.txt), and 
-[features_info.txt](features_info.txt).  The last of the aforementioned contains 
-a detailed description of how the measurements were collected and initially processed.
+[features_info.txt](features_info.txt).  See [UCI_README.txt](UCI_README.txt)
+and [features_info.txt](features_info.txt) for
+for a detailed description of how the measurements were collected and 
+preprocessed.  
 
+The original data files contain a number of statistics for each
+observation window.  The columns selected for [ucihar.csv](ucihar.csv) 
+contain only means and standard deviations.  In addition, each record in this file
+includes the label of the activity and the subject ID number.  Also, the training data
+and testing data, separate in the original files, have been concatenated together.
 
+The file [uciharMeans.csv](uciharMeans.csv) contains the mean, for each Activity-Subject
+pair, of the data in [ucihar.csv](ucihar.csv).  (Thus the data in 
+[uciharMeans.csv](uciharMeans.csv) represent "means of means" and
+"means of standard deviations", with the statistics first computed by observation
+window and then across observation windows by activity-subject pair.)
 
-[...rest of the text to go here...]
+Since each feature was normalized to be in the range [-1,1] (see
+[UCI_README.txt](UCI_README.txt)), the features can be considered 
+to be expressed in units of "each relative to its own maximum and minimum values."
+Each feature column in [ucihar.csv](ucihar.csv) (that is, each column except the
+first two, which represent Activity and Subject) has a minimum of -1 and a maximum of 1.
+(Note that the same is not true of [uciharMeans.csv](uciharMeans.csv),
+since these data have been averaged after having been normalized.)
 
+The table below shows the variables in the new data sets.  The columns in 
+[ucihar.csv](ucihar.csv) and [uciharMeans.csv](uciharMeans.csv) contain the same
+variable names, but the latter file contains only the means by Activity and Subject.
+Thus it has only one row for each Activity-Subject combination.  The former file,
+by contrast, contains one row for each observation window.  (As per
+[UCI_README.txt](UCI_README.txt), the sensor signals--after pre-processing--were sampled
+in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window).)
 
-The table below shows the variables in the new data set:
-
-# Description of Variables in New Data Set
+## Description of Variables in New Data Set
 
 Variable Name | Meaning
 --------------|--------------
