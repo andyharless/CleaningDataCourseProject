@@ -28,7 +28,7 @@ pair, of the data in [ucihar.csv](ucihar.csv).  (Thus the data in
 "means of standard deviations", with the statistics first computed by observation
 window and then across observation windows by activity-subject pair.)
 
-Since each feature was normalized to be in the range [-1,1] (see
+Since each feature was normalized to be in the range \[-1,1\] (see
 [UCI_README.txt](UCI_README.txt)), the features can be considered 
 to be expressed in units of "each relative to its own maximum and minimum values."
 Each feature column in [ucihar.csv](ucihar.csv) (that is, each column except the
