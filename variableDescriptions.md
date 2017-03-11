@@ -1,7 +1,9 @@
-# Table of Columns Extracted and Variable Names
+# Description of Variables in New Data Set
 
 Variable Name | Meaning
 --------------|--------------
+Activity | Label of Subject's Current Activity (Walking, Sitting, Standing, etc.)
+Subject | Subject ID Number
 BodyAccelerationMeanX | Mean of Time-Domain Body Acceleration Signal X direction
 BodyAccelerationMeanY | Mean of Time-Domain Body Acceleration Signal Y direction
 BodyAccelerationMeanZ | Mean of Time-Domain Body Acceleration Signal Z direction
